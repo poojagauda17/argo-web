@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/blog/page": "app/blog/page.js",
+  "/Franchise/page": "app/Franchise/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/crops/page": "app/crops/page.js",
+  "/distributers/page": "app/distributers/page.js",
+  "/about/page": "app/about/page.js",
+  "/ourStory/page": "app/ourStory/page.js",
+  "/distribution/page": "app/distribution/page.js",
+  "/whyChooseUs/page": "app/whyChooseUs/page.js",
+  "/page": "app/page.js"
+}
