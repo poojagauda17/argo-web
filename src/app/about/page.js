@@ -3,7 +3,6 @@
 import React from "react";
 import { FaUser, FaSearch } from "react-icons/fa";
 import HeaderSection from "../components/HeaderSection";
-import AboutPageSection from "../components/AboutPageSection";
 import FooterSection from "../components/FooterSection";
 import {
   getAllProductList, addSuperStockerForm
