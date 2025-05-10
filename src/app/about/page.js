@@ -32,7 +32,6 @@ const WhyChooseUs = () => {
     <div>
       <HeaderSection productList={productList} onSupplierSubmit={addSuperStockerForm} />
 
-      <AboutPageSection />
 
       <FooterSection />
     </div>
