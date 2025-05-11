@@ -33,7 +33,7 @@ const blogArticles = [
 
 export default function BlogCarousel() {
   return (
-    <section className="blog-carousel px-4 md:px-12 py-16 bg-white">
+    <section className="blog-carousel px-4 md:px-12 py-16">
       <h2 className="blog-carousel-heading text-3xl font-bold text-[#80B82D] mb-10 text-center">
         Blogs
       </h2>

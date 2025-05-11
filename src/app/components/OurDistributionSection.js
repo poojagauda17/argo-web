@@ -30,7 +30,7 @@ export default function DistributionSection() {
           {distributionData.map((item, i) => (
             <div
               key={i}
-              className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-xl transition duration-300"
+              className=" rounded-xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-xl transition duration-300"
             >
               <div className="mb-4">{item.icon}</div>
               <h4 className="text-lg font-bold text-[#e9d127] mb-2">{item.title}</h4>

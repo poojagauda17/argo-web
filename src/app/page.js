@@ -7,9 +7,10 @@ import FooterSection from "./components/FooterSection";
 import HeroCarousel from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import CustomerReview from "./components/CustomerReview"
-import Blogs from "./components/BlogSection"
 import ContactForm from "./components/ContactForm"
 import WhyChooseSection from "./components/WhyChooseSection"
+import BenefitSection from "./components/BenefitSection"
+import HowtoDoSection from "./components/HowtoDoSection"
 
 import ProductSection from "./components/ProductsSection"
 
@@ -49,7 +50,9 @@ export default function HeroSectionPage() {
       <HeroCarousel bannerList={bannerList} />
       <AboutSection />
       <ProductSection />
-      <Blogs />
+      <BenefitSection />
+      <HowtoDoSection />
+
       <WhyChooseSection />
       <CustomerReview />
       <ContactForm />

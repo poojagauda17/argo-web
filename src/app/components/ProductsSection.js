@@ -1,32 +1,42 @@
 "use client";
 import React from "react";
+import Link from "next/link";
+
 
 const crops = [
   {
-    name: "SUGARCANE",
+    name: "Bio CNG",
     image:
-      "images/sugarcane.png",
+      "images/bio-cng.jpg",
+          link: "/biocng",
+
   },
   {
-    name: "GRAPE",
+    name: "Organic Fertilizer",
     image:
-      "images/grapes.png",
+      "images/Organic-Fertilizer.jpg",
+          link: "/Organic-fertilization",
+
   },
   {
-    name: "COFFEE",
+    name: "Organic Pesticides",
     image:
-      "images/cofee.png",
+      "images/Organic-Pesticides.jpg",
+          link: "/OrganicPesticites",
+
   },
   {
-    name: "COTTON",
+    name: "Soil Conditioners",
     image:
-      "/images/cotton.svg",
+      "/images/Soil-Conditioners.jpg",
+          link: "/SoilConditioners",
+
   },
 ];
 
 export default function CropsWeNourish() {
   return (
-    <section className="text-center py-16 bg-white">
+    <section className="text-center py-16 main-container">
       <h2 className="text-4xl font-bold text-[#1b5e20]">
         Crops <span className="text-[#80B82D]">We Nourish</span>
       </h2>
@@ -49,9 +59,12 @@ export default function CropsWeNourish() {
   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
   <div className="absolute bottom-6 left-0 right-0 px-4 text-white text-center">
     <h3 className="text-lg font-bold">{crop.name}</h3>
+    <Link href={crop.link}>
+
     <button className="mt-2 bg-[#80B82D] hover:bg-[#6fa127] text-xs font-semibold px-4 py-2 rounded-full transition-all duration-300 cursor-pointer">
       Read More
     </button>
+    </Link>
   </div>
 </div>
 

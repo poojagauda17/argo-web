@@ -3,7 +3,7 @@
   width: 100%;
   z-index: 1000;
     position: fixed;
-    background-color: var(--secondaryColor);
+    background-color: var(--white);
 
   
 }
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 95px;
+  margin: 20px 95px 10px 95px;
   
 }
 
@@ -35,7 +35,7 @@
 }
 
 .nav-link {
-  color: #fff;
+  color: var(--primary);
   text-decoration: none;
   font-weight: 500;
   position: relative;
@@ -49,15 +49,15 @@
 }
 
 .nav-link.active {
-  color: var(--secondaryColor);
-  background: white;
-  border-color: white;
+  color: var(--white);
+  background: var(--primary);
+  border-color: var(--primary);
 }
 
 .nav-link:hover {
-  color: var(--secondaryColor);
-  background: white;
-  border-color: white;
+  color: var(--white);
+  background: var(--primary);
+  border-color: var(--primary);
 }
 
 .nav-link.active::after {

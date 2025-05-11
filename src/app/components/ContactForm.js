@@ -82,10 +82,15 @@ export default function ContactSection() {
       <div className="">
         <h2>We’d love to hear from you!</h2>
         <h4>Address:</h4>
-        <p>Mumbai, India</p>
+        <p>Naydongari  
+Nandgaon  
+Nashik  
+Pin Code: 424109  
+Gat No: 932/1B  
+</p>
 
         <h4>Customer Care:</h4>
-        <p>Phone: +91-XXXXXXXXXX</p>
+        <p>Phone: +91-9834351313</p>
         <p>Email: testing@gmail.com</p>
         <div className="oneonn-location">
 <iframe

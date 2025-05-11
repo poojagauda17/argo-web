@@ -147,10 +147,9 @@ export default function HeaderSection({onSupplierSubmit }) {
       <header className="navbar">
         <div className="header-container">
           <div className="logo">
-            {/* <Link href="/">
-              <img src="/oneonn-logo.png" alt="logo" className="header-logo" />
-            </Link> */}
-                           <h2>Agro</h2>
+             <Link href="/">
+              <img src="/images/Shree-agro.png" alt="logo" className="header-logo" />
+            </Link> 
 
           </div>
 
@@ -188,7 +187,7 @@ export default function HeaderSection({onSupplierSubmit }) {
               href="/blog"
               className={isActive("/blog") ? "nav-link active" : "nav-link"}
             >
-              Our Blog
+              Benefits
             </Link>
             <Link
               href="/contact"

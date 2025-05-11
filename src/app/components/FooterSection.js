@@ -17,10 +17,9 @@ export default function FooterSection() {
     <footer className="footer-section">
       <div className="footer-container">
         <div className="footer-left">
-       {/* <Link href="/">
-       <img src="/oneonn-logo.png" alt="logo" className="footer-logo" /></Link> */}
+       <Link href="/">
+       <img src="/images/Shree-agro.png" alt="logo" className="footer-logo" /></Link>
         </div>
-               <h2>Agro</h2>
 
 
         <div className="footer-links">

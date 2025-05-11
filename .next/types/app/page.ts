@@ -1,4 +1,4 @@
-// File: C:\Users\tempadmin\Desktop\Pooja\Agro\agro-web\src\app\page.js
+// File: C:\Users\tempadmin\Desktop\Pooja\argo-web\src\app\page.js
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

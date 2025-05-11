@@ -4,24 +4,24 @@ import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 const features = [
   {
-    title: "Exceptional Crop Quality and Yield",
+    title: "Trusted Quality",
     description:
-      "Our agro solutions are crafted to improve soil health and enhance overall crop yield using research-backed formulations and natural inputs.",
+      "Our solution is designed to significantly reduce carbon footprint and air pollution. By choosing a cleaner alternative, you’re actively contributing to a greener planet and healthier environment for future generations.",
   },
   {
-    title: "Eco-Friendly & Sustainable Farming",
+    title: "Eco Commitment ",
     description:
-      "All products are designed for minimal environmental impact and support sustainable farming practices that benefit both crops and climate.",
+      "Say goodbye to high fuel expenses. Our fuel source is considerably more cost-effective than petrol, diesel, or LPG — making it the smart choice for both individuals and businesses looking to save money without compromising on performance.",
   },
   {
-    title: "Research-Driven Innovation",
+    title: "End-to-End Support ",
     description:
-      "We invest in agricultural R&D to develop next-gen micronutrient blends and formulations tailored for modern farming needs.",
+      "We ensure the highest level of fuel purity, making it ideal for use in vehicles, industrial machinery, and power generation units. The quality guarantees smooth operation and extended engine life.",
   },
   {
-    title: "Reliable Farmer Support",
+    title: "Customer Satisfaction",
     description:
-      "Our agri experts provide guidance, application tips, and region-specific recommendations to ensure maximum productivity.",
+      "Produced through environmentally responsible methods, our fuel emits zero harmful byproducts. It’s a clean energy source that supports sustainability goals and complies with modern environmental standards.",
   },
 ];
 
@@ -33,9 +33,9 @@ export default function WhyChooseUsSection() {
   };
 
   return (
-    <section className="blog-carousel mx-auto px-4 py-16">
+    <section className="blog-carousel mx-auto px-4 py-16 main-container">
       <h2 className="text-4xl font-bold text-[#1B5E20] mb-8 text-center">
-        Why Choose <span className="text-[#80B82D]">Us</span>
+        Why Choose Shree Agro
       </h2>
 
       <div className="space-y-4">
@@ -48,7 +48,7 @@ export default function WhyChooseUsSection() {
               className="border border-gray-200 rounded-lg overflow-hidden shadow-sm"
             >
               <button
-                className="flex justify-between items-center w-full px-6 py-4 bg-white hover:bg-gray-50 transition-colors"
+                className="flex justify-between items-center w-full px-6 py-4 hover:bg-gray-50 transition-colors"
                 onClick={() => toggle(index)}
               >
                 <span
@@ -67,7 +67,7 @@ export default function WhyChooseUsSection() {
 
               <div
                 className={`transition-all duration-500 ease-in-out px-6 overflow-hidden ${
-                  isOpen ? "max-h-[500px] py-4 opacity-100" : "max-h-0 py-0 opacity-0"
+                  isOpen ? "max-h-[500px] py-4 pt-0 opacity-100" : "max-h-0 py-0 opacity-0"
                 }`}
               >
                 <p className="text-gray-600 text-sm">{item.description}</p>

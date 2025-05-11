@@ -3,6 +3,7 @@
 import React from "react";
 import { FaUser, FaSearch } from "react-icons/fa";
 import HeaderSection from "../components/HeaderSection";
+import AboutPageSection from "../components/AboutSection";
 import FooterSection from "../components/FooterSection";
 import {
   getAllProductList, addSuperStockerForm
@@ -32,6 +33,7 @@ const WhyChooseUs = () => {
     <div>
       <HeaderSection productList={productList} onSupplierSubmit={addSuperStockerForm} />
 
+      <AboutPageSection />
 
       <FooterSection />
     </div>

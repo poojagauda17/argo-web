@@ -3,7 +3,7 @@
 
 
 :root {
-  --background: #ffffff;
+  --white: #ffffff;
   --foreground: #171717;
   --forpara: #666;
   --primary: #80b82d;
@@ -63,6 +63,16 @@ h1{
 button{
   cursor: pointer;
 }
+.main-container{
+      max-width: 1200px;
+    margin: 0 auto;
+        padding: 60px 0px;
+
+}
+body{
+          background-color: #f2fef6;
+
+}
 .read-more-button:hover{
   background-color: transparent !important;
   color: var(--primary) !important;
@@ -86,7 +96,6 @@ button{
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
   font-family: var(--font-family-para);
 }
